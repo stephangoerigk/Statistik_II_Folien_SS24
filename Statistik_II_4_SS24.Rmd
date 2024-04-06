@@ -1,7 +1,7 @@
 ---
 title: "Einheit 4"
 subtitle: "⚔<br/>with xaringan"
-author: "Dr. Stephan Goerigk"
+author: "Prof. Dr. Stephan Goerigk"
 institute: "RStudio, PBC"
 date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
@@ -61,9 +61,9 @@ name: Title slide
 class: middle, left
 <br><br><br><br><br><br><br>
 # Statistik II
-
+***
 ### Einheit 4: Einfache lineare Regression (2)
-##### 10.11.2023 | Prof. Dr. phil. Stephan Goerigk
+##### `r format(as.Date(data.frame(readxl::read_excel("Modul Quantitative Methoden II_Termine.xlsx"))$Datum), "%d.%m.%Y")[4]` | Prof. Dr. Stephan Goerigk
 
 ---
 class: top, left

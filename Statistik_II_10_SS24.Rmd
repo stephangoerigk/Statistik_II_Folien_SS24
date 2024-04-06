@@ -1,7 +1,7 @@
 ---
 title: "Einheit 10"
 subtitle: "⚔<br/>with xaringan"
-author: "Dr. Stephan Goerigk"
+author: "Prof. Dr. Stephan Goerigk"
 institute: "RStudio, PBC"
 date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
@@ -63,9 +63,9 @@ name: Title slide
 class: middle, left
 <br><br><br><br><br><br><br>
 # Statistik II
-
-### Einheit 10: Verfahren für Nominaldaten
-##### 10.01.2023 | Prof. Dr. phil. Stephan Goerigk
+***
+### Einheit 10: Verfahren für Nominaldaten - $\chi-$Test
+##### `r format(as.Date(data.frame(readxl::read_excel("Modul Quantitative Methoden II_Termine.xlsx"))$Datum), "%d.%m.%Y")[10]` | Prof. Dr. Stephan Goerigk
 
 ---
 class: top, left

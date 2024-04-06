@@ -3,7 +3,7 @@
   <head>
     <title>Einheit 2</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Dr. Stephan Goerigk" />
+    <meta name="author" content="Prof. Dr. Stephan Goerigk" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/hygge.css" rel="stylesheet" />
     <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
@@ -27,9 +27,9 @@ name: Title slide
 class: middle, left
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 # Statistik II
-
+***
 ### Einheit 2: Einfaktorielle Varianzanalyse (2)
-##### 18.10.2023 | Prof. Dr. phil. Stephan Goerigk
+##### 18.10.2023 | Prof. Dr. Stephan Goerigk
 
 ---
 class: top, left
@@ -100,7 +100,7 @@ t.test(Symptome ~ Gruppe,
 ## 	Two Sample t-test
 ## 
 ## data:  Symptome by Gruppe
-## t = 6.0718, df = 98, p-value = 2.403e-08
+## t = 6.0718, df = 98, p-value = 0.00000002403
 ## alternative hypothesis: true difference in means between group Medikament.1 and group Placebo is not equal to 0
 ## 95 percent confidence interval:
 ##  2.994253 5.901785
@@ -127,9 +127,9 @@ anova(lm(Symptome ~ Gruppe,
 ## Analysis of Variance Table
 ## 
 ## Response: Symptome
-##           Df  Sum Sq Mean Sq F value    Pr(&gt;F)    
-## Gruppe     1  494.62  494.62  36.867 2.403e-08 ***
-## Residuals 98 1314.82   13.42                      
+##           Df  Sum Sq Mean Sq F value        Pr(&gt;F)    
+## Gruppe     1  494.62  494.62  36.867 0.00000002403 ***
+## Residuals 98 1314.82   13.42                          
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 ```
@@ -193,9 +193,9 @@ anova(lm(Symptome ~ Gruppe, data = df))
 ## Analysis of Variance Table
 ## 
 ## Response: Symptome
-##            Df Sum Sq Mean Sq F value    Pr(&gt;F)    
-## Gruppe      2  582.4 291.201  20.558 1.341e-08 ***
-## Residuals 147 2082.2  14.165                      
+##            Df Sum Sq Mean Sq F value        Pr(&gt;F)    
+## Gruppe      2  582.4 291.201  20.558 0.00000001341 ***
+## Residuals 147 2082.2  14.165                          
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 ```
