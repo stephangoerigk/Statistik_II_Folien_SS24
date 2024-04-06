@@ -1,0 +1,16 @@
+.fullslide img {
+  margin-top: -85px;
+  margin-left: -60px;
+}
+
+.code40 .remark-code{
+  font-size: 40%
+}
+
+.code60 .remark-code{
+  font-size: 60%
+}
+
+.code80 .remark-code{
+  font-size: 80%
+}
