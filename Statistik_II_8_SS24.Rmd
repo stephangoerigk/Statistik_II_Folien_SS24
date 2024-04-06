@@ -20,8 +20,6 @@ output:
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 
-setwd("/Users/stephangoerigk/Desktop/Universität/CFH/Lehre/Bachelor/Quantitative Methoden II/VO_Statistik II/Statistik_II_Folien_SS23/")
-
 library(tidyverse)
 library(kableExtra)
 library(ggplot2)
