@@ -566,7 +566,7 @@ class: top, left
 
 * Vorgehen: Regressionsgewicht muss von Originalmetrik des untersuchten Merkmals $(Y)$ bereinigt werden
 
-  * Zähler- und Nennnereinheiten werden an der Streuung von $Y$ und $X$ relativiert
+  * Zähler- und Nennereinheiten werden an der Streuung von $Y$ und $X$ relativiert
 
 $$b_{yx}=\frac{\frac{\text{Anzahl Einheiten auf Y}}{\sigma_y}}{\frac{\text{pro 1 Einheit X}}{\sigma_x}}=b \cdot \frac{\frac{1}{\sigma_y}}{\frac{1}{\sigma_x}}= b \cdot \frac{\sigma_y}{\sigma_x}$$
 
