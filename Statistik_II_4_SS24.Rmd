@@ -1190,15 +1190,17 @@ class: top, left
 
 #### Voraussetzungen der einfachen linearen Regression
 
-1. Das Kriterium (AV) muss intervallskaliert und normalverteilt sein.
+1. Das Kriterium (AV) muss intervallskaliert sein.
 
-2. Der Prädiktor (UV) kann entweder intervallskaliert und normalverteilt oder dichotom nominalskaliert sein.
+2. Der Prädiktor (UV) darf nominal, ordinal und intervallskaliert sein.
 
 3. Die Werte der einzelnen Versuchspersonen müssen unabhängig voneinander sein
 
 4. Der Zusammenhang muss theroretisch linear sein (sonst andere Regressionsmodelle nutzen).
 
 5. Streuungen der zu einem x-Wert gehörenden y-werte müssen über ganzen Wertebereich von $X$ homogen sein (Homoskedastizität).
+
+6. Die Residuen sollten normalverteilt sein.
 
 ---
 class: top, left
