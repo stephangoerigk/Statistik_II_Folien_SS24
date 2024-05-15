@@ -1119,15 +1119,17 @@ class: top, left
 
 #### Signifikanztest der Effekte
 
+.pull-left[
+
 ##### Signifikanztest Interaktionseffekt $UV_1$ x $UV_2$
 
 **Berechnung - Beispiel:**
 
-.pull-left[
+
 
 $$\hat{\sigma}^2_{UV_1\text{x}UV_2}= \frac{\sum\limits _{i=1}^{p}\sum\limits _{j=1}^{1}n \cdot [\bar{UV_{1}UV_{2}}_{ij} - (\bar{UV_{1i}} + \bar{UV_{2j}}- \bar{G})]^2}{(p-1) \cdot (q-1)}$$
 $$\bar{G}= `r round(mean(df$Verbesserung), 2)`$$
-$$\hat{\sigma}^2_{UV_1\text{x}UV_2}= \frac{4 \cdot [11.75  - (16 + 18 - 22.25)]^2 + ... + [32.75  - (28.5 + 26.5 - 22.25)]^2}{(2-1) \cdot (2-1)}=196$$
+$$\hat{\sigma}^2_{UV_1\text{x}UV_2}= \frac{4 \cdot [15.25  - (16 + 18 - 22.25)]^2 + ... + [36.25  - (28.5 + 26.5 - 22.25)]^2}{(2-1) \cdot (2-1)}=196$$
 $$F_{UV_1(1,12)}=\frac{\hat{\sigma}^2_{UV_1\text{x}UV_2}}{\hat{\sigma}^2_{Res}}=\frac{196}{16.25}=12.06$$
 ]
 
@@ -1144,6 +1146,8 @@ knitr::kable(df_med,
                   font_size = 18,
                   html_font = "Times New Roman")
 ```
+
+<br>
 
 ```{r echo = F}
 df_med = plyr::ddply(df, c("Dosis"), plyr::summarise,
