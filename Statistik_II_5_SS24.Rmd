@@ -985,7 +985,7 @@ $$\hat{\beta}_j = \bar{UV_2j} - \bar{G}$$
 
 Laut Haupteffekten erwartete Zellmittelwerte:
 
-$$\bar{UV_1UV_2}_{ij} = \bar{G} + \hat{\alpha}_i + \hat{\beta}_j = \bar{G} + (\bar{UV_1i} - \bar{G}) +   (\bar{UV_2j} - \bar{G}) = \bar{UV_1i} + \bar{UV_2j} - \bar{G}$$
+$$\bar{UV_1UV_2}_{ij; erwartet} = \bar{G} + \hat{\alpha}_i + \hat{\beta}_j = \bar{G} + (\bar{UV_1i} - \bar{G}) +   (\bar{UV_2j} - \bar{G}) = \bar{UV_1i} + \bar{UV_2j} - \bar{G}$$
 ---
 class: top, left
 ### Mehrfaktorielle ANOVA
@@ -1044,13 +1044,13 @@ knitr::kable(df_med,
 
 * Erwarteter Wert für Mittelwert von Placebo mit niedriger Dosis:
 
-$$\bar{UV_1UV_2}_{11}= 16 + 18 - 22.25 = 11.75$$
+$$\bar{UV_1UV_2}_{1,1; erwartet}= 16 + 18 - 22.25 = 11.75$$
 
 * Beobachteter Wert für Mittelwert von Placebo mit niedriger Dosis = 15.25
 
 * Erwarteter Wert für Mittelwert von Verum mit hoher Dosis:
 
-$$\bar{UV_1UV_2}_{22}= 28.5 + 26.5 - 22.25 = 32.75$$
+$$\bar{UV_1UV_2}_{2,2; erwartet} = 28.5 + 26.5 - 22.25 = 32.75$$
 
 * Beobachteter Wert für Mittelwert von Verum mit hoher Dosis = 36.25
 ]
